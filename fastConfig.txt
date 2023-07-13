@@ -1,0 +1,23 @@
+to create fastapi project we need have python3 compailer you can check the version of pyhton on your machine by command line
+    - python3 --version
+
+and that we need to download virtual evironment by command line
+    - python3 -m venv <name of virtual environment >
+
+and we need to activate virtual evironment by command line
+    - source <name Of virtual environment >/bin/activate
+
+then we need to use command line 
+    - pip3 install fastapi
+
+then we need to install uvicorn by command line
+    - pip3 install uvicorn
+
+then we need to create main.py 
+
+to run fast api we need to use command line
+    uvicorn main:app --reload
+
+to set port for ip adress
+   uvicorn main:app --port <number of port>
+ 
