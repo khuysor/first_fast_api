@@ -8,3 +8,7 @@ def index():
 @app.get('/about')
 def about():
     return {'data':{' page':'aboutpage'}}
+
+@app.get('/homepage')
+def home():
+    return {'data':{'page':'homepage'}}

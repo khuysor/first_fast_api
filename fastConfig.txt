@@ -18,6 +18,9 @@ then we need to create main.py
 to run fast api we need to use command line
     uvicorn main:app --reload
 
-to set port for ip adress
+to set port for ip address
    uvicorn main:app --port <number of port>
+
+to set port for ip address and auto reload we use command line
+    uvicorn main:app --port <number of port > --reload
  
